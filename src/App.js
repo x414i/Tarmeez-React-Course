@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <MyFirstComponent />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -22,4 +23,14 @@ function App() {
   );
 }
 
+
+function MyFirstComponent() {
+  return (
+    <div>
+      <h1>My First Component</h1>
+      <p>This is my first React component.</p>
+      <button>Click me!</button>
+    </div>
+  );
+}
 export default App;
